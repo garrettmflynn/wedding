@@ -1,0 +1,81 @@
+
+* {
+    box-sizing: border-box;
+}
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(54, 55, 55);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    color: rgba(0, 111, 92, 1);
+    text-decoration: none;
+}
+
+nav {
+    padding: 10px 25px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    border-bottom: 1px solid #e6e6e6;
+}
+
+footer {
+    background-color: #f0f0f0;
+    color: rgb(119 119 119);
+    padding: 5px 25px;
+    font-size: 80%;
+}
+
+main {
+    padding: 20px;
+    flex-grow: 1;
+
+    display: flex;
+    height: 100%;
+    align-content: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+section {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    width: 100%;
+}
+
+section > div {
+    width: 100%;
+}
+
+/* Substack Embed Customization */
+
+.custom-substack-widget {
+    border: 1px solid var(--csw-primary-color);
+}
+
+.custom-substack-widget input {
+    line-height: 0px !important;
+    font-size: 90% !important;
+}
+
+.custom-substack-widget+.success {
+    font-size: 80%;
+}
