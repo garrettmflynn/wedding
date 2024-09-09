@@ -60,20 +60,19 @@ footer {
 }
 
 main {
-    flex-grow: 1;
-
     display: flex;
-    flex-wrap: wrap;
+    align-items: center;
     justify-content: center;
+    gap: 10px;
+    padding: 35px 50px;
+    flex-grow: 1;
 }
 
 header {
     position: relative;
-    padding: 25px 50px 0px 50px !important;
     text-align: center;
     align-items: unset;
     justify-content: unset;
-    min-width: 400px;
     min-height: 250px;
 }
 
@@ -91,20 +90,6 @@ header::before {
     background-repeat: no-repeat; /* Prevent the image from repeating */
     
     z-index: -1; /* Ensure the pseudo-element stays behind the content */
-}
-
-
-main > * {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    padding: 35px 50px;
-    flex-grow: 1;
-}
-
-main div {
-   flex-grow: 1;
 }
 
 
