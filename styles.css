@@ -38,8 +38,28 @@ h1 {
 }
 
 h2 {
-    border-bottom: 1px solid #e6e6e6;
+    border-bottom: 1px solid silver;
     padding-bottom: 10px;
+    margin-top: 40px;
+}
+
+
+h3 {
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+h4 {
+    margin-bottom: 10px;
+}
+
+ol {
+    font-size: 90%;
+    margin: 0;
+}
+
+li {
+    padding: 5px 0;
 }
 
 nav {
@@ -128,12 +148,6 @@ button {
     margin: 0;
     padding: 0px;
     border-bottom: none;
-}
-
-h3 {
-    margin-top: 40px;
-    border-bottom: 1px solid silver;
-    padding-bottom: 10px;
 }
 
 #actions {
